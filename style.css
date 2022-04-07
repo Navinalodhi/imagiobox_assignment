@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 175px;
+    padding: 30px;
+    height: 50px;
+    margin-right: 260px;
+    margin-left: 30px;
+}
+nav ul{
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    margin-left: 220px;
+} 
+nav ul li{
+    font-weight: 600px bold;
+    text-decoration: none;
+    list-style: none;
+    padding: 30px 15px 30px 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.hometext{
+    height: 465px;
+    background-image:url("pic.jpg");
+    background-size: cover;    
+}
+.hometext .text-imagio{
+    color: #ea0e39e3!important;
+    /* font-weight: 200; */
+    font-size: 7em;
+    padding: 180px 0 0 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.hometext .text-black{
+    font-size: 40px;
+    padding: 10px 0 0 15px;
+}
+.hometext .btn-custom{
+    color: white;
+    background-color: #245cd2;
+    border-radius: 5px;
+    margin-left: -4px;
+    display: inline;
+    font-size: 30px;
+    margin-top: 40px;
+}
+#features{
+    margin: 50px;
+    padding: 50px;
+}
+.features_item{
+    width: 500px;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.features_item2_area{
+    width: 500px;
+    float: right;
+}
+.features_item_text img{
+    height: 450px;
+}
+.headtitle{
+    margin: 10px;
+    padding: 10px;
+    color: #ea0e39e3;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.featured_content a{
+    color: white;
+    background-color: #245cd2;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.images3{
+    width: 100%;
+    display: flex;
+    background-color: cornsilk;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+.image1{
+    flex: 1;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.image2{
+    flex: 1;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.image3{
+    flex: 1;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.head_title{
+    margin: 10px;
+    padding: 10px;
+    color: #ea0e39e3;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.service_content{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 50px 10px 50px;
+    padding: 50px;
+}
+.m-top-40s{
+    color: white;
+    background-color: #245cd2;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.artistgroup h1{
+    margin: 10px 15px 10px 15px;
+    padding: 10px;
+    color: #ea0e39e3;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.group{
+    max-width: 1300px;
+    margin: auto;
+    background: cornsilk;
+    overflow: auto;
+}
+.gallary{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallary img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.details{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: row; 
+}
+.details .h1{
+    flex: 1;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.details .h2{
+    flex: 1;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.details .h3{
+    flex: 1;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.content{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+    color: white;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+}
+.footer-col a{
+    color: #25bdbe;
+}
